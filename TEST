@@ -1,6 +1,9 @@
-'''
-This is the unmodified file. Again.
-'''
+class A(object):
+    x = 0
+    def __init__(self, x = None):
+	if x == None:
+	    self.x = x
 
-def printx(x):
-    print x
+def printx(self):
+    print self.x
+
