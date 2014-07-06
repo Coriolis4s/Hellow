@@ -1,5 +1,5 @@
 '''
-This is the basic clas inheriting from object.
+This is the basic class inheriting from object.
 '''
 class A(object):
     def __init__(self, name):
