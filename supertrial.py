@@ -38,9 +38,9 @@ class D(C, B):
 	# self.__mro__
 	# from pprint import pprint
 
-# b = B("buchki")
+# b = B("a")
 # b.printl()
-d = D("bhutkoo")
+d = D("b")
 d.printl()
 tuplet = D.__mro__
 for i in xrange(len(tuplet)):
